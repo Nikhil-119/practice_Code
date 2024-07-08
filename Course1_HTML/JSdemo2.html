@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    function add()
+    {
+        var numOne, numTwo, sum;
+        numOne = parseInt(document.getElementById("first").value);
+        numTwo = parseInt(document.getElementById("second").value);
+        sum = numOne + numTwo;
+        document.getElementById("answer").value = sum;
+    }
+
+    function subtract()
+    {
+        var numOne, numTwo, sum;
+        numOne = parseInt(document.getElementById("first").value);
+        numTwo = parseInt(document.getElementById("second").value);
+        sum = numOne - numTwo;
+        document.getElementById("answer").value = sum;
+
+    }
+
+    function multiplication()
+    {
+        var numOne, numTwo, sum;
+        numOne = parseInt(document.getElementById("first").value);
+        numTwo = parseInt(document.getElementById("second").value);
+        sum = numOne * numTwo;
+        document.getElementById("answer").value = sum;
+    }
+
+    function division()
+    {
+        var numOne, numTwo, sum;
+        numOne = parseInt(document.getElementById("first").value);
+        numTwo = parseInt(document.getElementById("second").value);
+        sum = numOne / numTwo;
+        document.getElementById("answer").value = sum;
+    }
+</script>    
+</head>
+<body>
+
+    <p>Enter the First Number: <input type="text" id="first"></p>
+    <p>Enter the Second Number: <input type="text" id="second"></p>
+    <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
+    <button onclick="multiplication()">Multiply</button>
+    <button onclick="division()">Divide</button>
+    <p>Sum= <input id="answer"></p>
+    
+</body>
+</html>

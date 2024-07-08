@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    
+    <center>
+    <table border="7" cellpadding="14">
+    <tr>
+        <th colspan="2"><h1>Register</h1></th>
+    <form action="demo3.html" target="_self" method="post">
+    <tr>
+        <th><label>First Name</label></th> <td><input type="text" name="fname"></td>
+    </tr>
+        
+    <tr>
+        <th><label>Last Name</label></th> <td><input type="text" name="Lname"></td>
+    </tr>
+
+    <tr>
+        <th rowspan="2"><label>Gender</label></th> <td><input type="radio" id="gender" name="gender" value="male">Male</td>
+    </tr>
+    
+    <tr>
+        <td><input type="radio" id="gender" name="gender" value="male">Female</td>
+    </tr>
+    
+    <tr>
+        <th><label for="Country">Country</label></th>
+        <td><select id="country">
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="Russia">Russia</option>
+            <option value="Iran">Iran</option>
+            <option value="UK">U.K.</option>
+        </select></td>
+    </tr>
+    
+    <tr>
+        <th><label>Email</label></th> <td><input type="email"></td>
+    </tr> 
+        
+    <tr>
+        <th><label>Password</label></th> <td><input type="password"></td>
+    </tr>
+
+    <tr>
+        <th colspan="2"><button>Submit</button></th>
+    </tr>
+    </table>    
+       
+    </form>
+    </center>
+
+    
+    
+</body>
+</html>
